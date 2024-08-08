@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: hsl(203, 19%, 21%);
+}
+.container {
+  background: hsl(204, 19%, 34%);
+  height: 100vh;
+  width: fit-content;
+  padding: 1% 5%;
+  display: block;
+  margin: 0 auto;
+}
+canvas {
+  background: hsl(204, 100%, 88%);
+  display: block;
+  margin: 0 auto;
+  border: 5px solid hsl(203, 19%, 47%);
+  border-radius: 30px;
+}
+.text {
+  padding-top: 4px;
+  font-size: 35px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: hsl(203, 19%, 47%);
+  user-select: none;
+}
+.image {
+  display: none;
+}
